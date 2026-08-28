@@ -28,6 +28,8 @@ class tollbooth{
     unsigned int nopayCars= totalCars- payingCars;
     cout<<"total number of cars:"<<totalCars<<endl;
     cout<<"total money collected:"<<totalMoney<<endl;
+    cout<<"paying cars:"<<payingCars<<endl;
+    cout<<"non paying cars:"<<nopayCars<<endl;
 
   }
 };
