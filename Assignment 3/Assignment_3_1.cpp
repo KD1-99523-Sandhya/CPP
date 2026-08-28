@@ -6,7 +6,7 @@ class Cylinder
     private:
     double radius;              
     double height;              
-    static const double PI;     
+    static double PI;     
 
     public:
     Cylinder(void):radius(0.0), height(0.0)
@@ -42,7 +42,7 @@ class Cylinder
     }
 };
 
-const double Cylinder :: PI = 3.14;
+double Cylinder :: PI = 3.14;
 
 
 int main()
